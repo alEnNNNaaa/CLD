@@ -30,6 +30,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     background-color: #fff;
+    color: #333;
 
 }
 .btn{
@@ -42,6 +43,24 @@ body{
 .nav__list{
     display: flex;
     gap: 85px;
+}
+.nav__link{
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+
+}
+.nav__link:focus-visible{
+    outline-offset: 2px;
+    outline: 2px solid #F90;
+}
+.nav__link:hover{
+    border-color: #F90;
+}
+.nav__link:active{
+    color: #E1670E;
+    border-color: #E1670E;
 }
 .header__container{
     display: flex;
